@@ -4,16 +4,18 @@
 
 void pattern()
 {
-    int a;
-    
-    for(int i = 5; i >= 1; i-- )
+   int row, i, j;
+  printf("Enter the number of row: ");
+  scanf("%d", &row);
+
+  for(i = row; i >= 1; i--)
+  {
+    for(j = row; j >= i; j--)
     {
-        for(int j = 5; j >= 1; j--)
-        {
-            printf("%3d", j);
-        }
-        printf("\n");
+      printf("%3d",j);
     }
+    printf("\n");
+  }
 }
 
 void main()
