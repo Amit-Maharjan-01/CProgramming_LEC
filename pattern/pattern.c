@@ -49,5 +49,5 @@ void main()
 {
 //multiplication (4,4);
 //triangulartable ();
-pyramid_pattern (6);
+pyramid_pattern ();
 }
