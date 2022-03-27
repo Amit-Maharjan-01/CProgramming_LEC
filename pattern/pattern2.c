@@ -98,5 +98,5 @@ void main()
     //pattern();
    // rect();
    //Vshape();
-   inv_tri();
+   Vshape();
 }
